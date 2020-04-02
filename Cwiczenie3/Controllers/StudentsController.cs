@@ -26,6 +26,7 @@ namespace Cwiczenie3.Controllers
             return Ok(_dbService.GetStudents());
         }
         
+
         [HttpPost]
         public IActionResult CreateStudent(Student student)
         {
