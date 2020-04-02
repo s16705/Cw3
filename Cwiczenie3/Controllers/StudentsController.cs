@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Cwiczenie3.DAL;
@@ -20,13 +21,19 @@ namespace Cwiczenie3.Controllers
             _dbService = dbService;
         }
 
-        [HttpGet]
-        public IActionResult GetStudent(string orderBy)
+        [HttpGet("{id}")]
+        public IActionResult GetStudentsSemester(string id)
         {
-            return Ok(_dbService.GetStudents());
+            if (id.Equals("0"))
+            {
+                return Ok(_dbService.GetStudents());
+            }
+            else
+            {
+                return Ok(_dbService.GetStudentsSemester(id));
+            }
         }
         
-
         [HttpPost]
         public IActionResult CreateStudent(Student student)
         {
