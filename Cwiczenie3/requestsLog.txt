@@ -1,0 +1,72 @@
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   ?name=Kowalski
+   [BODY]
+   {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
