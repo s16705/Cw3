@@ -2,6 +2,7 @@
 using Cw3.DTOs.Requests;
 using Cw3.DTOs.Response;
 using Cw3.Models;
+using Cwiczenie3.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -19,7 +20,7 @@ namespace Cw3.DAL
     public class SqlServerDbService : IStudentsDbService
     {
         private string sqlConnection = "Data Source=db-mssql; Initial Catalog=s16705; Integrated Security=True";
-        
+
         public EnrollStudentResponse EnrollStudent(EnrollStudentRequest request)
         {
             EnrollStudentResponse response = new EnrollStudentResponse();
@@ -32,14 +33,14 @@ namespace Cw3.DAL
             DateTime time = Convert.ToDateTime(response.Birthdate);
             string dbTime = time.ToString("yyyy-MM-dd HH:mm:ss.fff");
 
-            using (var con=new SqlConnection(sqlConnection))
-            using(var com=new SqlCommand())
+            using (var con = new SqlConnection(sqlConnection))
+            using (var com = new SqlCommand())
             {
                 com.Connection = con;
                 con.Open();
                 var tran = con.BeginTransaction();
                 com.Transaction = tran;
-                
+
                 //Czy studia istnieja
                 com.CommandText = "select IdStudy from Studies where Name=@Name";
                 com.Parameters.AddWithValue("name", request.Studies);
@@ -74,9 +75,9 @@ namespace Cw3.DAL
                     com.Parameters.AddWithValue("IdStudy", idstudies);
                     com.Parameters.AddWithValue("StartDate", DateTime.Now);
                     dr3.Close();
-                    
+
                     com.ExecuteNonQuery();
-                    
+
 
                     response.Info = "Enrollment dodany";
 
@@ -98,17 +99,18 @@ namespace Cw3.DAL
                     com.ExecuteNonQuery();
                     tran.Commit();
                     response.Info = "201 Student dodany";
-                }catch(SqlException e)
+                }
+                catch (SqlException e)
                 {
                     response.Info = "400 Blad podczad dodawania studenta" + e;
                     tran.Rollback();
                 }
-   
+
                 //Zakończenie
                 con.Close();
 
             }
-        
+
             return response;
         }
 
@@ -159,12 +161,38 @@ namespace Cw3.DAL
                 {
                     promote.Info = "400 Blad podczad aktualizacji semestru" + e;
                     tran.Rollback();
-              
+
                 }
 
             }
-            
+
             return promote;
+        }
+
+        public Student GetStudent(string index)
+        {
+            using (var con = new SqlConnection(sqlConnection))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                com.CommandText = "select IndexNumber from Student WHERE IndexNumber=@Index";
+                com.Parameters.AddWithValue("Index", index);
+
+                var st = new Student();
+                SqlDataReader sqlRead = com.ExecuteReader();
+                if (sqlRead.Read())
+                {
+                    st.IndexNumber = sqlRead["IndexNumber"].ToString();
+                    con.Close();
+                    return st;
+                }
+                else
+                {
+                    con.Close();
+                    return null;
+                }
+            }
         }
     }
 }
