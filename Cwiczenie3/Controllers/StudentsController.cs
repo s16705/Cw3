@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Threading.Tasks;
 using Cwiczenie3.DAL;
 using Cwiczenie3.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cwiczenie3.Controllers
@@ -52,7 +47,7 @@ namespace Cwiczenie3.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteStudent(int id)
         {
-            return Ok("Usuwanie ukonczone");
+            return Ok("200 Usuwanie ukonczone");
         }
 
     }
