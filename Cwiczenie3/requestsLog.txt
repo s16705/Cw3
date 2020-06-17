@@ -70,3 +70,950 @@
 "Studies": "WI"
 }
 [END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   ?name=Kowalski
+   [BODY]
+   {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"IndexNumber": "s6634",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "WI"
+}
+[END]
+[LOG]
+   [PATH]
+   /api/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /weatherforecast
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /favicon.ico
+   [METHOD]
+   GET
+   [QUERY]
+   
+   [BODY]
+   
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]
+[LOG]
+   [PATH]
+   /api/enrollments/promotions
+   [METHOD]
+   POST
+   [QUERY]
+   
+   [BODY]
+   {
+"Studies": "WAT",
+"Semester": 1
+}
+[END]

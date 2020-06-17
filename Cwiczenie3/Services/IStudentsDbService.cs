@@ -8,6 +8,8 @@ namespace Cw3.DAL
     {
         EnrollStudentResponse EnrollStudent(EnrollStudentRequest request);
         PromoteStudentResponse PromoteStudents(int semester, string studies);
+
+        //ModelsCw10.Enrollment PromoteStudent (int semester, string studies);
         Student GetStudent(string index);
 
     }

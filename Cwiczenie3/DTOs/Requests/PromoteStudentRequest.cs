@@ -8,10 +8,8 @@ namespace Cw3.DTOs.Requests
 {
     public class PromoteStudentRequest
     {
-        [Required(ErrorMessage = "400 Musisz podać kierunek studiów")]
         public string Studies { get; set; }
 
-        [Required(ErrorMessage = "400 Musisz podać semestr")]
         public int Semester { get; set; }
     }
 }
